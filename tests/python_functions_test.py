@@ -77,7 +77,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
 
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius(self):
-    result = farenheit_to_celcius(50)
+    result = fahrenheit_to_celcius(50)
     self.assertEqual(10, result)
 
 

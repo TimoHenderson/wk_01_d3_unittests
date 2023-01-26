@@ -38,6 +38,6 @@ def reverse_string(string):
         reversed_string = char + reversed_string
     return reversed_string
 
-def farenheit_to_celcius(farenheit):
-    celcius = (farenheit -32) * (5 / 9)
+def fahrenheit_to_celcius(fahrenheit):
+    celcius = (fahrenheit -32) * (5 / 9)
     return celcius
